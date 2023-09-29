@@ -1,0 +1,10 @@
+.container{
+    background-color: rgb(238, 211, 164);
+    position: relative;
+}
+
+.contact-us{
+    position: absolute;
+    right:0px;
+    top:0px;
+}

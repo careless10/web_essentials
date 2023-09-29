@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.pm-1{
+    padding: 16px;
+    margin: 32px;
+}

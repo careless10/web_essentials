@@ -1,0 +1,9 @@
+.container{
+    background-color: rgb(137, 185, 185);
+    height:100px;
+    width: 100px;
+    border:dashed 3px #2e5858;
+    border-top-style: solid;
+    border-top-color: rgb(146, 59, 34);
+    border-radius: 50%;
+}

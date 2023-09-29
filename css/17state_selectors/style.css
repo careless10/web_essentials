@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    background-color: white;
+    height:300px;
+    width: 300px;
+}
+
+.container:hover{
+    box-shadow: 2px 2px 4px black;
+}
+
+a:visited{
+    color:green;
+}
+
+a:active{
+    color:blueviolet;
+}
+
+a:hover{
+    color:orange;
+}
