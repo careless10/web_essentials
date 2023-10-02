@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+}
+
+$primary: rgb(0, 128, 255);
+$secondary: gray;
+
+@mixin colorer($color: DarkGray,$sd:4px){
+    background-color: $color;
+    color: #fff;
+    box-shadow: $sd $sd 4px $color;
+    padding: 12px;  
+}
+
+body {
+  @include colorer($primary);
+}
+
+h1 {
+  @include colorer($secondary)
+}
+
+h2{
+    @include colorer(red,8px);
+}

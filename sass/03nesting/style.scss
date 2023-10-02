@@ -1,0 +1,19 @@
+body,html{
+    height:100%;
+}
+
+$primary: rgb(0, 128, 255);
+
+.card{
+    .card-header{
+       color:white;
+    } background:$primary;
+        
+    .card-body{
+        background:white;
+        color:$primary;
+    }
+    &:hover{
+        box-shadow: 4px 4px 4px black;
+    }
+}

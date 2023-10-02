@@ -1,0 +1,15 @@
+
+body,
+html {
+  height: 100%;
+}
+
+$colors:(
+  "primary":blue,
+  "secondary":DarkGray,
+  "danger":red
+);
+
+body{
+  background-color: map-get($map: $colors, $key: "primary" );
+}

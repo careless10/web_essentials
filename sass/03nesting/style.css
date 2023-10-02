@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+}
+
+.card {
+  background: rgb(0, 128, 255);
+}
+.card .card-header {
+  color: white;
+}
+.card .card-body {
+  background: white;
+  color: rgb(0, 128, 255);
+}
+.card:hover {
+  box-shadow: 4px 4px 4px black;
+}
+
+/*# sourceMappingURL=style.css.map */
